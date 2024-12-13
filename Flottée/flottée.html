@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS mise eb page - flottée</title>
+    <style>
+      div {
+        border: 3px solid greenyellow;
+        padding: 5px;
+      }
+
+      .img2 {
+        float: right;
+        width: 170px;
+      }
+      .clearfix::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="clearfix">
+      <img class="img2" src="../images/fruits.jpeg" />
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum facere nemo
+      est quod odit quaerat placeat, facilis praesentium beatae voluptas!
+      Sapiente iste delectus cupiditate dolorum ratione esse tenetur,
+      repellendus earum?
+    </div>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt quos
+      fugiat at assumenda nobis sit obcaecati, totam excepturi praesentium
+      consequuntur blanditiis possimus! Eius magnam eligendi, vero sit enim
+      sapiente eaque.
+    </p>
+  </body>
+</html>
