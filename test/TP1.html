@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tableau</title>
+    <style>
+      #no {
+        background-color: black;
+        text-align: center;
+        writing-mode: vertical-lr;
+      }
+
+      #ok {
+        background-color: green;
+        color: white;
+      }
+      tr th {
+        font-family: "Franklin Gothic";
+        -webkit-text-stroke: 1px red;
+      }
+      table {
+        padding-top: 1px;
+      }
+    </style>
+  </head>
+  <body>
+    <table border="1" cellspacing="3px" width="300px">
+      <tr>
+        <th id="no" rowspan="3">NO</th>
+        <th id="ok">OK</th>
+        <th id="ok">OK</th>
+        <th id="no" rowspan="3">NO</th>
+      </tr>
+      <tr>
+        <th id="ok" colspan="2">Good</th>
+      </tr>
+      <tr>
+        <th id="ok" colspan="2">Good</th>
+      </tr>
+    </table>
+  </body>
+</html>
